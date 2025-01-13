@@ -1,6 +1,4 @@
-using Microsoft.Extensions.ObjectPool;
-
-namespace ARobinsonMC4Five2Svn_EndPnt.Services
+namespace ARobinsonP2All4OneAPI.Services
 {
     public class MadLibServices
     {

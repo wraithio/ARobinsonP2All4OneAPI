@@ -1,7 +1,7 @@
 using ARobinsonP2All4OneAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ARobinsonMC1SayHllo_EndPnt.Controllers
+namespace ARobinsonP2All4OneAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -12,7 +12,7 @@ namespace ARobinsonMC1SayHllo_EndPnt.Controllers
         {
             _sayHelloServices = sayHelloServices;
         }
-        
+
         [HttpGet]
         [Route("InputName/{name}")]
         public string SayHello(string name)

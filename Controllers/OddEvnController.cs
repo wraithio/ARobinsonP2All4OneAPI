@@ -1,7 +1,7 @@
-using ARobinsonMC4Five2Svn_EndPnt.Services;
+using ARobinsonP2All4OneAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ARobinsonMC4Five2Svn_EndPnt.Controllers
+namespace ARobinsonP2All4OneAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]

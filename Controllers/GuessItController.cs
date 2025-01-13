@@ -1,10 +1,10 @@
-using ARobinsonMC5Eight2Ten_EndPnt.Services;
+using ARobinsonP2All4OneAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ARobinsonMC5Eight2Ten_EndPnt.Controllers
+namespace ARobinsonP2All4OneAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class GuessItController : ControllerBase
     {
         private readonly GuessItServices _guessItServices;

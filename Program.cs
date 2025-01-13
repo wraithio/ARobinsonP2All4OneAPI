@@ -1,6 +1,3 @@
-using ARobinsonMC3Two2Four_EndPnt.services;
-using ARobinsonMC4Five2Svn_EndPnt.Services;
-using ARobinsonMC5Eight2Ten_EndPnt.Services;
 using ARobinsonP2All4OneAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +8,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 builder.Services.AddScoped<SayHelloServices>();
 builder.Services.AddScoped<Add2NumServices>();
 builder.Services.AddScoped<GtrThnLessThnServices>();

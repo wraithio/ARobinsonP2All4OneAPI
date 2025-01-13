@@ -1,9 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace ARobinsonMC3Two2Four_EndPnt.services
+namespace ARobinsonP2All4OneAPI.Services
 {
     public class GtrThnLessThnServices
     {

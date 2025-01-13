@@ -1,11 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ARobinsonMC4Five2Svn_EndPnt.Services;
+using ARobinsonP2All4OneAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ARobinsonMC4Five2Svn_EndPnt.Controllers
+namespace ARobinsonP2All4OneAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -14,13 +10,10 @@ namespace ARobinsonMC4Five2Svn_EndPnt.Controllers
         private readonly ReverseNumServices _reverseNumServices;
         private readonly ReverseCharServices _reverseCharServices;
 
-        public ReverseItController(ReverseNumServices reverseNumServices)
+        public ReverseItController(ReverseNumServices reverseNumServices, ReverseCharServices reverseCharServices)
         {
-                _reverseNumServices = reverseNumServices;
-        }
-        public ReverseItController(ReverseCharServices reverseCharServices)
-        {
-            _reverseCharServices = reverseCharServices;
+            _reverseNumServices = reverseNumServices;
+             _reverseCharServices = reverseCharServices;
         }
 
         [HttpGet]
