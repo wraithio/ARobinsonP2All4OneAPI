@@ -26,4 +26,5 @@ This will include the following from prior mini challenges
 
 github [here](https://github.com/wraithio/ARobinsonP2All4OneAPI)
 
-### Peer Review by: 
+### Peer Review by: Andrew Sayasing
+Nicely done. It look like validation works for all the endpoints. Everything does what it need to do other then the guess it difficulties. It appears that the medium and hard difficulties are actually tied to the easy difficulty (1-10 not 1-50 and 1-100). Other than that everything checks out.
