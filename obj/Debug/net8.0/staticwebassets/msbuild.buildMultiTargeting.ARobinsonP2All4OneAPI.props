@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ARobinsonP2All4OneAPI.props" />
+</Project>

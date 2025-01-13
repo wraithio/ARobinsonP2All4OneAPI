@@ -11,15 +11,15 @@ namespace ARobinsonMC3Two2Four_EndPnt.services
         {
             if (Num1 < Num2)
             {
-                return Num1 + " is less than " + Num2 + "." + Num2 + " is greater than " + Num1 + ".";
+                return $"{Num1} is less than {Num2}. {Num2} is greater than {Num1}.";
             }
             if (Num1 > Num2)
             {
-                return Num1 + " is greater than " + Num2 + ". " + Num2 + " is less than " + Num1 + ".";
+                return $"{Num1} is greater than {Num2}. {Num2} is less than {Num1}.";
             }
             if (Num1 == Num2)
             {
-                return Num1 + " is equal to " + Num2 + ".";
+                return $"{Num1} is equal to {Num2}.";
             }
             return null!;
         }
