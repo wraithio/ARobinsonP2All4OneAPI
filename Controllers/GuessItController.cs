@@ -25,14 +25,14 @@ namespace ARobinsonP2All4OneAPI.Controllers
         [Route("MediumgoGuessIt/{guessInt}")]
         public string MediumgoGuessIt(int guessInt)
         {
-            return _guessItServices.EasygoGuessIt(guessInt);
+            return _guessItServices.MediumgoGuessIt(guessInt);
         }
 
         [HttpGet]
         [Route("HardgoGuessIt/{guessInt}")]
         public string HardgoGuessIt(int guessInt)
         {
-            return _guessItServices.EasygoGuessIt(guessInt);
+            return _guessItServices.HardgoGuessIt(guessInt);
         }
     }
 }
