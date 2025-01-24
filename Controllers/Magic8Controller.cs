@@ -15,10 +15,10 @@ namespace ARobinsonP2All4OneAPI.Controllers
         }
 
         [HttpGet]
-        [Route("goMagic8/{question}")]
-        public string goMagic8(string question)
+        [Route("goMagic8")]
+        public string goMagic8()
         {
-            return _magic8Services.goMagic8(question);
+            return _magic8Services.goMagic8();
         }
     }
 }
