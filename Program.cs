@@ -9,6 +9,24 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(options => {
+    options.AddPolicy("AllowAll",
+    policy => {
+        policy.AllowAnyOrigin()     //allows request from any origin
+              .AllowAnyMethod()     //allows any http request (put,get,delete etc.)
+              .AllowAnyHeader();    //allows any headers
+    });
+});
+
+builder.Services.AddCors(options => {
+    options.AddPolicy("AllowSome",
+    policy => {
+        policy.WithOrigins("http://localhost:3000", "http://Example.com")
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 builder.Services.AddScoped<SayHelloServices>();
 builder.Services.AddScoped<Add2NumServices>();
 builder.Services.AddScoped<GtrThnLessThnServices>();
@@ -31,6 +49,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 

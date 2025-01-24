@@ -4,7 +4,7 @@ namespace ARobinsonP2All4OneAPI.Services
     {
         public string InputName(string name, int time)
         {
-            return "Hello " + name + ", you woke up at " + time + " today!";
+            return "Hello " + name + ", you woke up at " + time;
         }
     }
 }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ARobinsonP2All4OneAPI.props" />
+</Project>

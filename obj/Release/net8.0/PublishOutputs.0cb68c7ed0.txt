@@ -1,0 +1,11 @@
+C:\Users\aarmo\CodeStack\Level2\Week2\ARobinsonP2All4OneAPI\bin\Release\net8.0\publish\ARobinsonP2All4OneAPI.exe
+C:\Users\aarmo\CodeStack\Level2\Week2\ARobinsonP2All4OneAPI\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\aarmo\CodeStack\Level2\Week2\ARobinsonP2All4OneAPI\bin\Release\net8.0\publish\appsettings.json
+C:\Users\aarmo\CodeStack\Level2\Week2\ARobinsonP2All4OneAPI\bin\Release\net8.0\publish\ARobinsonP2All4OneAPI.dll
+C:\Users\aarmo\CodeStack\Level2\Week2\ARobinsonP2All4OneAPI\bin\Release\net8.0\publish\ARobinsonP2All4OneAPI.deps.json
+C:\Users\aarmo\CodeStack\Level2\Week2\ARobinsonP2All4OneAPI\bin\Release\net8.0\publish\ARobinsonP2All4OneAPI.runtimeconfig.json
+C:\Users\aarmo\CodeStack\Level2\Week2\ARobinsonP2All4OneAPI\bin\Release\net8.0\publish\ARobinsonP2All4OneAPI.pdb
+C:\Users\aarmo\CodeStack\Level2\Week2\ARobinsonP2All4OneAPI\bin\Release\net8.0\publish\Microsoft.OpenApi.dll
+C:\Users\aarmo\CodeStack\Level2\Week2\ARobinsonP2All4OneAPI\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\aarmo\CodeStack\Level2\Week2\ARobinsonP2All4OneAPI\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\aarmo\CodeStack\Level2\Week2\ARobinsonP2All4OneAPI\bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
