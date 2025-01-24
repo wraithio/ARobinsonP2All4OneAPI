@@ -18,11 +18,11 @@ namespace ARobinsonP2All4OneAPI.Controllers
         }
 
         [HttpGet]
-        [Route("goMadLib/{madLibs}")]
+        [Route("goMadLib/{color}/{adjective}/{place}/{adjective_2}/{place_2}/{food_S}/ {food_P}/{verb}/{noun_P}/{adjective_3}")]
 
-        public string goMadLib(LibModel madLibs)
+        public string goMadLib(string color, string adjective, string place, string adjective_2, string place_2, string food_S, string food_P, string verb, string noun_P, string adjective_3)
         {
-            return _madLibServices.goMadLib();
+            return _madLibServices.goMadLib(color, adjective, place, adjective_2, place_2, food_S, food_P, verb, noun_P, adjective_3);
 
         }
     }
