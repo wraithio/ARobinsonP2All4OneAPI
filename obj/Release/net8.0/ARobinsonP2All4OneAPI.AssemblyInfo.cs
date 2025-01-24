@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ARobinsonP2All4OneAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f43030e478ede2765891fc114b3855a32674d356")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72e9a1bcf5fb63bcffb1dc8fae24b041ae48cdd9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ARobinsonP2All4OneAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ARobinsonP2All4OneAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
